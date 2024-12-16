@@ -15,7 +15,30 @@ const MightLike = () => {
             </div>
 
             <div className='flex justify-center items-center gap-5 mt-10 flex-wrap'>
-                
+                <div className='flex flex-col'>
+                    <Image src={shirt9} alt='#' />
+                    <p className='font-sans font-semibold text-lg'>Polo with Contrast Trims</p>
+                    <Image src={rating} alt='#' />
+                    <p className='font-sans font-extrabold text-2xl'>$120</p>
+                </div>
+                <div className='flex flex-col'>
+                    <Image src={shirt10} alt='#' />
+                    <p className='font-sans font-semibold text-lg'>Gradient Graphic T-shirt</p>
+                    <Image src={rating} alt='#' />
+                    <p className='font-sans font-extrabold text-2xl'>$240 <span className='text-slate-300'><del>$260</del></span>    <span className='text-red-600 bg-red-200 rounded-3xl text-xs p-1'>30%</span></p>
+                </div>
+                <div className='flex flex-col'>
+                    <Image src={shirt11} alt='#' />
+                    <p className='font-sans font-semibold text-lg'>Polo with Tipping Details</p>
+                    <Image src={rating} alt='#' />
+                    <p className='font-sans font-extrabold text-2xl'>$180</p>
+                </div>
+                <div className='flex flex-col'>
+                    <Image src={shirt12} alt='#' />
+                    <p className='font-sans font-semibold text-lg'>Black Striped T-shirt</p>
+                    <Image src={rating} alt='#' />
+                    <p className='font-sans font-extrabold text-2xl'>$130 <span className='text-slate-300'><del>$160</del></span>     <span className='text-red-600 bg-red-200 rounded-3xl text-xs p-1'>30%</span></p>
+                </div>
             </div>
         </>
     )

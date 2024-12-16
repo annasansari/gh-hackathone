@@ -26,8 +26,8 @@ const Header = () => {
                         placeholder="Search for products"
                         aria-label="Search for products"
                     />
-                    <Image className='hidden lg-block' src={profile} alt="Profile" width={20} height={20} />
-                    <Image className='hidden lg-block' src={cart} alt="Cart" width={20} height={20} />
+                    <Image className='max-[640px]:hidden' src={profile} alt="Profile" width={20} height={20} />
+                    <Image className='max-[640px]:hidden' src={cart} alt="Cart" width={20} height={20} />
                 </div>
             </header>
         </>

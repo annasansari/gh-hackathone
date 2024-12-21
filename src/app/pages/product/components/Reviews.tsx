@@ -38,7 +38,7 @@ const Reviews = () => {
                     <p>
                         "I absolutely love this t-shirt! The design is unique and the fabric
                         feels so comfortable. As a fellow designer, I appreciate the attention to
-                        detail. It's become my favorite go-to shirt. This t-shirt definitely gets
+                        detail. This t-shirt definitely gets
                         a thumbs up from me."
                     </p>
                     <div className="mt-3 text-sm">Posted on August 14, 2023</div>

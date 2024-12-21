@@ -79,7 +79,7 @@ const Cart = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='max-[660px]:w-[80%]'>
                     <p className='text-xl font-sans font-semibold'>Order Summary</p>
                     <div className='text-[#807c7c] flex flex-col'>
                         <div className='flex justify-between items-center gap-10'>
@@ -103,7 +103,7 @@ const Cart = () => {
                         </div>
                         <div className='flex flex-col gap-3 mt-5'>
                             <div className='flex justify-center items-center gap-3'>
-                                <input type="text" placeholder='Add promo code' className='rounded-3xl border-none outline-none px-8 h-10 placeholder:text-sm placeholder:font-bold bg-[#f0f0f0] ' />
+                                <input type="text" placeholder='Add promo code' className='rounded-3xl border-none outline-none px-8 h-10 placeholder:text-sm placeholder:font-bold bg-[#f0f0f0] max-[660px]:w-[90%]' />
                                 <button className='bg-black text-white outline-none rounded-3xl px-8 py-2 text-lg font-sans'>Apply</button>
                             </div>
                             <button className='bg-black text-white outline-none rounded-3xl px-8 py-2 text-lg font-sans'>Go To Checkout</button>
